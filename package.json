@@ -1,5 +1,5 @@
 {
-  "name": "demo-app-2",
+  "name": "demo-app-two",
   "version": "1.0.0",
   "description": "A sample docker container to run a nodejs application serving a health API request",
   "main": "index.js",
