@@ -8,7 +8,7 @@ const response = {
 }
 const response2 = {
     status: 'ok',
-    app: 'Demo App two',
+    app: 'Demo App Two',
  	branch : 'Branch 1'
 }
 server.use(restify.acceptParser(server.acceptable));
@@ -20,7 +20,7 @@ server.get('/health', function (req, res, next) {
   return next();
 });
 
-server.get('/', function (req, res, next) {
+server.get('/serviceB', function (req, res, next) {
   res.send(response2);
   return next();
 });
